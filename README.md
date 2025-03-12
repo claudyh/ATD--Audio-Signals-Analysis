@@ -20,15 +20,15 @@ The dataset for this project consists of speech signals recorded from 60 partici
    
 3. Develop code to import the signals.
    
-4. Reproduce and graphically represent an example of the imported signals, identifying the digit each corresponds to.
+4. Reproduce/graphically represent an example of the imported signals, identifying the digit each corresponds to.
    
    4.1. Visually identify possible temporal characteristics that allow differentiating pairs of digits.
    
-   4.2. Identify temporal characteristics, such as energy, maximum amplitude, etc., that allow differentiating all digits.
+   4.2. Identify temporal characteristics, such as energy, max amplitude, .., that allow differentiating all digits.
    
    4.3. Formulate possible decision rules (e.g., if-then-else) that best separate the different digits in a feature space of up to three dimensions. Represent the decision surfaces.
    
-5. Based on the assigned signals, compute, for each digit, the median and normalized amplitude spectrum by the number of samples (i.e., equivalent to the modulus of the complex Fourier series coefficients) only for positive frequencies. Also, calculate the first quartile (25%) and third quartile (75%).
+6. Based on the assigned signals, compute, for each digit, the median and normalized amplitude spectrum by the number of samples (i.e., equivalent to the modulus of the complex Fourier series coefficients) only for positive frequencies. Also, calculate the first quartile (25%) and third quartile (75%).
    
    5.1. Compare four different types of windows.
    
@@ -38,11 +38,11 @@ The dataset for this project consists of speech signals recorded from 60 partici
    
    5.4. Formulate possible decision rules that best separate the different digits in a feature space of up to three dimensions. Represent the decision surfaces.
    
-6. Repeat the previous steps using the STFT. Use different parameterizations, such as the number of points for FFT computation, overlap points, etc., and identify the one(s) that seem best suited for the objective of the work.
+7. Repeat the previous steps using the STFT. Use different parameterizations, such as the number of points for FFT computation, overlap points, etc., and identify the one(s) that seem best suited for the objective of the work.
    
-7. Consider the best features from time domain analysis, DFT, and STFT.
+8. Consider the best features from time domain analysis, DFT, and STFT.
    
-   7.1. Formulate possible decision rules that allow separating pairs of digits in a feature space of up to three dimensions.
+   7.1. Formulate decision rules that allow separating digit pairs in a feature space of up to three dimensions.
     
    7.2. Formulate possible decision rules that allow separating all digits in a feature space of up to three dimensions.
 
